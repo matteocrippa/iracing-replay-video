@@ -6,6 +6,7 @@
   "author": "Matteo Cripa",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.6.0",
     "bluebird": "^3.5.1",
     "ejs": "^2.5.7",
     "fluent-ffmpeg": "^2.1.2",
@@ -14,7 +15,7 @@
     "xml-js": "^1.6.2"
   },
   "scripts": {
-    "prepare": "node ./scripts/prepare.js",
+    "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",
     "all": "node ./scripts/prepare.js && node ./scripts/images.js && node ./scripts/videos.js"
