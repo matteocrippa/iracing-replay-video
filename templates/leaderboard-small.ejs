@@ -1,11 +1,18 @@
 <html>
 <head>
   <style>
+    .lap-box {
+      background: rgba(0, 0, 0, 0.5);
+      left: 24px;
+      position: absolute;
+      top: 24px;
+      color: white;
+    }
     .box {
       background: rgba(0, 0, 0, 0.5);
-      left: 44px;
+      left: 24px;
       position: absolute;
-      top: 44px;
+      top: 84px;
       color: white;
     }
     .inner {
@@ -15,29 +22,41 @@
       background: black;
       color: white;
     }
-    b {
-      font-size: 20px;
+    tr {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: white;
     }
+
     .fastestlap {
       background: mediumpurple;
     }
     .current {
-      background: darkgoldenrod;
+      background: deepskyblue;
     }
   </style>
 </head>
 <body>
+<div class="lap-box">
+  <div class="inner">
+    <% if (standings.lap) { %><%= standings.lap %><% } %>
+  </div>
+</div>
 <div class="box">
   <div class="inner">
-    <% if (standings.lap) { %><h4><%= standings.lap %></h4><% } %>
-    <hr/>
-    <% Object.keys(standings.order).forEach(function(k) { %>
-      <% var item = standings.order[k]; %>
-      <p class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>">
-        <small><%= parseInt(k)+1 %></small> <b><%= item.driver.surname %> <% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></b>
-        <% if (item.isFastestLap) { %> FL <% } %>
-      </p>
-    <% }); %>
+
+    <table>
+      <% Object.keys(standings.order).forEach(function(k) { %>
+        <% var item = standings.order[k]; %>
+        <tr>
+          <td>1</td>
+          <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;&nbsp;&nbsp;</td>
+          <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>"><%= item.driver.surname %></td>
+          <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
+        </tr>
+      <% }); %>
+    </table>
+
   </div>
 </div>
 </body>
