@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Mon Mar 19 2018 15:13:03 GMT+0100 (CET) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="OverlayData">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="IntroVideoFileName" type="xs:string"></xs:element>
+                           <xs:element name="LeaderBoards">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="LeaderBoard" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="StartTime" type="xs:double"></xs:element>
+                                                               <xs:element name="Drivers">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="Driver" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="Position" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarNumber" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="UserName" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="PitStopCount" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="RacePosition"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="CamDrivers">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="CamDriver" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="StartTime" type="xs:double"></xs:element>
+                                                               <xs:element name="CurrentDriver">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="Position" type="xs:int"></xs:element>
+                                                                                 <xs:element name="CarNumber" type="xs:int"></xs:element>
+                                                                                 <xs:element name="UserName" type="xs:string"></xs:element>
+                                                                                 <xs:element name="PitStopCount" type="xs:int"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="FastestLaps">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="FastLap" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="StartTime" type="xs:int"></xs:element>
+                                                               <xs:element name="Driver">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="Position">
+                                                                                       <xs:complexType>
+                                                                                             <xs:attribute name="xsi:nil" type="xs:string"></xs:attribute>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                                 <xs:element name="CarNumber" type="xs:int"></xs:element>
+                                                                                 <xs:element name="UserName" type="xs:string"></xs:element>
+                                                                                 <xs:element name="PitStopCount" type="xs:int"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="Time" type="xs:double"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="MessageStates">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="MessageState" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Messages">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="string" type="xs:string"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="Time" type="xs:double"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="SessionData">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="Raw" type="xs:string"></xs:element>
+                                             <xs:element name="InfoUpdate" type="xs:int"></xs:element>
+                                             <xs:element name="WeekendInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="TrackName" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackID" type="xs:int"></xs:element>
+                                                               <xs:element name="TrackLength" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackDisplayName" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackDisplayShortName" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackCity" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackCountry" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackAltitude" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackLatitude" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackLongitude" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackNumTurns" type="xs:int"></xs:element>
+                                                               <xs:element name="TrackPitSpeedLimit" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackType" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackWeatherType" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackSkies" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackSurfaceTemp" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackAirTemp" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackAirPressure" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackWindVel" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackWindDir" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackRelativeHumidity" type="xs:string"></xs:element>
+                                                               <xs:element name="TrackFogLevel" type="xs:string"></xs:element>
+                                                               <xs:element name="SeriesID" type="xs:int"></xs:element>
+                                                               <xs:element name="SeasonID" type="xs:int"></xs:element>
+                                                               <xs:element name="SessionID" type="xs:int"></xs:element>
+                                                               <xs:element name="SubSessionID" type="xs:int"></xs:element>
+                                                               <xs:element name="LeagueID" type="xs:int"></xs:element>
+                                                               <xs:element name="Official" type="xs:int"></xs:element>
+                                                               <xs:element name="RaceWeek" type="xs:int"></xs:element>
+                                                               <xs:element name="EventType" type="xs:string"></xs:element>
+                                                               <xs:element name="Category" type="xs:string"></xs:element>
+                                                               <xs:element name="SimMode" type="xs:string"></xs:element>
+                                                               <xs:element name="TeamRacing" type="xs:int"></xs:element>
+                                                               <xs:element name="MinDrivers" type="xs:int"></xs:element>
+                                                               <xs:element name="MaxDrivers" type="xs:int"></xs:element>
+                                                               <xs:element name="DCRuleSet" type="xs:string"></xs:element>
+                                                               <xs:element name="QualifierMustStartRace" type="xs:int"></xs:element>
+                                                               <xs:element name="NumCarClasses" type="xs:int"></xs:element>
+                                                               <xs:element name="NumCarTypes" type="xs:int"></xs:element>
+                                                               <xs:element name="WeekendOptions">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="NumStarters" type="xs:int"></xs:element>
+                                                                                 <xs:element name="StartingGrid" type="xs:string"></xs:element>
+                                                                                 <xs:element name="QualifyScoring" type="xs:string"></xs:element>
+                                                                                 <xs:element name="CourseCautions" type="xs:string"></xs:element>
+                                                                                 <xs:element name="StandingStart" type="xs:int"></xs:element>
+                                                                                 <xs:element name="Restarts" type="xs:string"></xs:element>
+                                                                                 <xs:element name="WeatherType" type="xs:string"></xs:element>
+                                                                                 <xs:element name="Skies" type="xs:string"></xs:element>
+                                                                                 <xs:element name="WindDirection" type="xs:string"></xs:element>
+                                                                                 <xs:element name="WindSpeed" type="xs:string"></xs:element>
+                                                                                 <xs:element name="WeatherTemp" type="xs:string"></xs:element>
+                                                                                 <xs:element name="RelativeHumidity" type="xs:string"></xs:element>
+                                                                                 <xs:element name="FogLevel" type="xs:string"></xs:element>
+                                                                                 <xs:element name="Unofficial" type="xs:int"></xs:element>
+                                                                                 <xs:element name="CommercialMode" type="xs:string"></xs:element>
+                                                                                 <xs:element name="NightMode" type="xs:int"></xs:element>
+                                                                                 <xs:element name="IsFixedSetup" type="xs:int"></xs:element>
+                                                                                 <xs:element name="StrictLapsChecking" type="xs:string"></xs:element>
+                                                                                 <xs:element name="HasOpenRegistration" type="xs:int"></xs:element>
+                                                                                 <xs:element name="HardcoreLevel" type="xs:int"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                               <xs:element name="TelemetryOptions">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="TelemetryDiskFile"></xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="SessionInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Sessions">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="_Sessions" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="SessionNum" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="SessionLaps" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="SessionTime" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="SessionNumLapsToAvg" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="SessionType" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="ResultsPositions">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="_ResultsPositions" maxOccurs="unbounded">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="Position" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="ClassPosition" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="CarIdx" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="Lap" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="Time" type="xs:double"></xs:element>
+                                                                                                                                       <xs:element name="FastestLap" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="FastestTime" type="xs:double"></xs:element>
+                                                                                                                                       <xs:element name="LastTime" type="xs:double"></xs:element>
+                                                                                                                                       <xs:element name="LapsLed" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="LapsComplete" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="LapsDriven" type="xs:double"></xs:element>
+                                                                                                                                       <xs:element name="Incidents" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="ReasonOutId" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="ReasonOutStr" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                                   <xs:element name="ResultsFastestLap">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="_ResultsFastestLap">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="CarIdx" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="FastestLap" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="FastestTime" type="xs:double"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                                   <xs:element name="ResultsAverageLapTime" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ResultsNumCautionFlags" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ResultsNumCautionLaps" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ResultsNumLeadChanges" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ResultsLapsComplete" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ResultsOfficial" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="CameraInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Groups">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="_Groups" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="GroupNum" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="GroupName" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="Cameras">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="_Cameras">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="CameraNum" type="xs:int"></xs:element>
+                                                                                                                                       <xs:element name="CameraName" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="RadioInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="SelectedRadioNum" type="xs:int"></xs:element>
+                                                               <xs:element name="Radios">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="_Radios">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="RadioNum" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="HopCount" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="NumFrequencies" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="TunedToFrequencyNum" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="ScanningIsOn" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="DriverInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="DriverCarIdx" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverHeadPosX" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverHeadPosY" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverHeadPosZ" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverCarIdleRPM" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarRedLine" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarFuelKgPerLtr" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverCarFuelMaxLtr" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverCarMaxFuelPct" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarSLFirstRPM" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarSLShiftRPM" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarSLLastRPM" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverCarSLBlinkRPM" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverPitTrkPct" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverCarEstLapTime" type="xs:double"></xs:element>
+                                                               <xs:element name="DriverSetupName" type="xs:string"></xs:element>
+                                                               <xs:element name="DriverSetupIsModified" type="xs:int"></xs:element>
+                                                               <xs:element name="DriverSetupLoadTypeName" type="xs:string"></xs:element>
+                                                               <xs:element name="DriverSetupPassedTech" type="xs:int"></xs:element>
+                                                               <xs:element name="Drivers">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="_Drivers" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="CarIdx" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="UserName" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="UserID" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="TeamID" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="TeamName" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarNumber" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarNumberRaw" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarPath" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarClassID" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarID" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarScreenName" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarScreenNameShort" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarClassRelSpeed" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarClassLicenseLevel" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarClassMaxFuelPct" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarClassWeightPenalty" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarClassColor" type="xs:double"></xs:element>
+                                                                                                   <xs:element name="IRating" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="LicLevel" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="LicSubLevel" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="LicString" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="LicColor" type="xs:double"></xs:element>
+                                                                                                   <xs:element name="IsSpectator" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarDesignStr" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="HelmetDesignStr" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="SuitDesignStr" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarNumberDesignStr" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="CarSponsor_1" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="CarSponsor_2" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="SplitTimeInfo">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="Sectors">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="_Sectors" maxOccurs="unbounded">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="SectorNum" type="xs:int"></xs:element>
+                                                                                                   <xs:element name="SectorStartPct" type="xs:int"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="RaceEvents">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="RaceEvent" maxOccurs="unbounded">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="StartTime" type="xs:double"></xs:element>
+                                                               <xs:element name="EndTime" type="xs:double"></xs:element>
+                                                               <xs:element name="Interest" type="xs:string"></xs:element>
+                                                               <xs:element name="WithOvertake" type="xs:string"></xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="xmlns:xsd" type="xs:string"></xs:attribute>
+                     <xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 

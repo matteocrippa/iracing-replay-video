@@ -1,0 +1,37 @@
+<html>
+<head>
+  <style>
+    .box {
+      background: rgba(0, 0, 0, 0.7);
+      bottom: 0;
+      height: 85%;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 60%;
+      color: white;
+    }
+    .inner {
+      margin: 12px;
+    }
+    li {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="inner">
+    <h2>Race Standings</h2>
+    <hr/>
+    <% Object.keys(standings).forEach(function(k) { %>
+      <% var item = standings[k]; %>
+    <p><small><%= parseInt(k)+1 %></small> <b><%= item.driver.fullname %> <%= item.gap %></b>
+    </p>
+    <% }); %>
+  </div>
+</div>
+</body>
+</html>

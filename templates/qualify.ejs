@@ -1,0 +1,57 @@
+<html>
+<head>
+  <style>
+    .box {
+      background: rgba(0, 0, 0, 0.7);
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 60%;
+      color: white;
+      height: 85%;
+    }
+    .inner {
+      margin: 12px;
+    }
+    li {
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="inner">
+    <h2>Qualify Standings <%= track.name %></h2>
+    <hr/>
+    <% Object.keys(standings).forEach(function(k) { %>
+      <% var item = standings[k]; %>
+      <p>
+        <small><%= parseInt(k)+1 %></small> <b><%= item.driver.fullname %> <%= item.time %> <%= item.gap %></b>
+      </p>
+    <% }); %>
+  </div>
+</div>
+</body>
+</html>
+
+<!--
+const d = {
+      position: driver.Position._text,
+      driver: getDriverById(driver.CarIdx._text),
+      time: converTimeToRacing(driver.Time._text), // convert
+      gap: calculateGap(prev, driver.Time._text), // calculate gap
+      fastest: {
+        lap: driver.FastestLap._text,
+        time: converTimeToRacing(driver.FastestTime._text)
+      },
+      lap: {
+        lap: driver.Lap._text,
+        led: driver.LapsLed._text,
+        complete: driver.LapsComplete._text,
+        driven: driver.LapsDriven._text,
+      }
+    };
+-->

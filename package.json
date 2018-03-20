@@ -1,0 +1,15 @@
+{
+  "name": "iracing-replay-video",
+  "version": "1.0.0",
+  "description": "iRacing Replay Video",
+  "main": "index.js",
+  "author": "Matteo Cripa",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "underscore": "^1.8.3",
+    "webshot": "^0.18.0",
+    "xml-js": "^1.6.2"
+  }
+}

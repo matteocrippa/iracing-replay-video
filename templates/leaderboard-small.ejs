@@ -1,0 +1,44 @@
+<html>
+<head>
+  <style>
+    .box {
+      background: rgba(0, 0, 0, 0.5);
+      left: 44px;
+      position: absolute;
+      top: 44px;
+      color: white;
+    }
+    .inner {
+      margin: 12px;
+    }
+    small {
+      background: black;
+      color: white;
+    }
+    b {
+      font-size: 20px;
+    }
+    .fastestlap {
+      background: mediumpurple;
+    }
+    .current {
+      background: darkgoldenrod;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <div class="inner">
+    <% if (standings.lap) { %><h4><%= standings.lap %></h4><% } %>
+    <hr/>
+    <% Object.keys(standings.order).forEach(function(k) { %>
+      <% var item = standings.order[k]; %>
+      <p class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>">
+        <small><%= parseInt(k)+1 %></small> <b><%= item.driver.surname %> <% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></b>
+        <% if (item.isFastestLap) { %> FL <% } %>
+      </p>
+    <% }); %>
+  </div>
+</div>
+</body>
+</html>
