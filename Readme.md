@@ -6,6 +6,10 @@
 
 ## Usage
 
+- Clone repository
+
+- Run `npm install` or `yarn install`
+
 - Rename files generate by iRacing Replay Overlay (iRO) in this way
   - short video > `intro.mp4`
   - long video > `video.mp4`
