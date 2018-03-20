@@ -21,17 +21,17 @@
 <body>
   <div class="box">
     <div class="inner">
-      <h1><%= data.name %></h1>
-      <h2><%= data.city %> (<%= data.country %>)</h2>
+      <h1><%= track.name %></h1>
+      <h2><%= track.city %> (<%= track.country %>)</h2>
       <br/>
       <h4>Length</h4>
-      <p><%= data.length %></p>
+      <p><%= track.length %></p>
       <h4>Weather</h4>
       <ul>
-        <li>Air temp: <%= data.weather.temperature.air %></li>
-        <li>Track temp: <%= data.weather.temperature.track %></li>
-        <li>Wind speed: <%= data.weather.wind.speed %></li>
-        <li>Wind direction: <%= data.weather.wind.direction %></li>
+        <li>Air temp: <%= track.weather.temperature.air %></li>
+        <li>Track temp: <%= track.weather.temperature.track %></li>
+        <li>Wind speed: <%= track.weather.wind.speed %></li>
+        <li>Wind direction: <%= track.weather.wind.direction %></li>
       </ul>
     </div>
   </div>

@@ -3,6 +3,7 @@
 ## Requirements
 - iRacing game installed
 - iRacing Replay Overlay ( https://github.com/vipoo/iRacingReplayOverlay.net )
+- ffmpeg
 
 ## Usage
 
