@@ -41,7 +41,7 @@
 const d = {
       position: driver.Position._text,
       driver: getDriverById(driver.CarIdx._text),
-      time: converTimeToRacing(driver.Time._text), // convert
+      time: converTimeToRacing(driver.Time._text), // input
       gap: calculateGap(prev, driver.Time._text), // calculate gap
       fastest: {
         lap: driver.FastestLap._text,

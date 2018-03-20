@@ -6,7 +6,7 @@ const track = require('../lib/track');
 const fs = require('fs');
 
 // load data file
-const jsonFile = require('fs').readFileSync('convert/data.xml', 'utf8');
+const jsonFile = require('fs').readFileSync('input/data.xml', 'utf8');
 const options = {
   compact: true,
   spaces: 4,

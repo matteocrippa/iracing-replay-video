@@ -1,8 +1,10 @@
 node_modules
-convert/*.png
-convert/*.mp4
-convert/*.xml
+input/*.png
+input/*.mp4
+input/*.xml
+output/*.mp4
 tmp/*.png
 tmp/*.mp4
 tmp/*.json
 debug.json
+yarn-error.log
