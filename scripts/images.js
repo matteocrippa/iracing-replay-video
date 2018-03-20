@@ -22,3 +22,5 @@ ui.generateEndSessionImage(data, true);
 // race image
 console.log('🎨 - Paiting Race Image');
 ui.generateEndSessionImage(data, false);
+
+console.log('✅ - Images generated');
