@@ -1,4 +1,7 @@
 node_modules
-convert
-tmp
+convert/*.png
+convert/*.mp4
+convert/*.xml
+tmp/*.png
+tmp/*.mp4
 debug.json
