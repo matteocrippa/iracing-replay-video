@@ -1,11 +1,8 @@
 // require
 const convert = require('xml-js');
-const generator = require('./lib/generator');
-const driver = require('./lib/driver');
-const utils = require('./lib/utils');
-const track = require('./lib/track');
-const ui = require('./lib/ui');
-const movie = require('./lib/movie.js');
+const generator = require('../lib/generator');
+const driver = require('../lib/driver');
+const track = require('../lib/track');
 const fs = require('fs');
 
 // load data file
@@ -29,9 +26,6 @@ const sessionInfo = sessionData.SessionInfo;
 
 const data = {};
 
-// load extra
-//utils.cleanUpTmps()
-
 // generate data
 console.log('🚗 - Generating driver list');
 data.drivers = driver.generateDriverList(sessionData);
@@ -51,26 +45,6 @@ data.session.race = sessionInfo.Sessions._Sessions[2].ResultsPositions._ResultsP
 console.log('🏁 - Generating Racing standings');
 data.race = generator.generateSessionData(data, false);
 
-
-// intro image
-console.log('🎨 - Paiting Intro Image');
-ui.generateIntroImage(data);
-
-// leaderboards images
-console.log('‍🎨 - Paiting Leaderboards Image');
-ui.generateLeaderboardImages(data);
-
-// qualify image
-console.log('‍🎨 - Paiting Qualify Image');
-ui.generateEndSessionImage(data, true);
-
-// race image
-console.log('🎨 - Paiting Race Image');
-ui.generateEndSessionImage(data, false);
-
 // dump data
+console.log('✅ - Json file written');
 fs.writeFile('./tmp/data.json', JSON.stringify(data, null, 4));
-
-// preparing video
-//console.log('🎥 - Preparing Video');
-//movie.prepareVideo(data);

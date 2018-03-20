@@ -18,7 +18,7 @@
   
 - Move all files into `convert` directory
 
-- Start using `node index.js`
+- Start using `yarn run all`
 
 ## Customise
 

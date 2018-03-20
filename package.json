@@ -13,5 +13,11 @@
     "underscore": "^1.8.3",
     "webshot": "^0.18.0",
     "xml-js": "^1.6.2"
+  },
+  "scripts": {
+    "prepare": "node ./scripts/prepare.js",
+    "images": "node ./scripts/images.js",
+    "video": "node ./scripts/videos.js",
+    "all": "node ./scripts/prepare.js && node ./scripts/images.js && node ./scripts/videos.js"
   }
 }
