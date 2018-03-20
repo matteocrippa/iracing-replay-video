@@ -4,4 +4,5 @@ convert/*.mp4
 convert/*.xml
 tmp/*.png
 tmp/*.mp4
+tmp/*.json
 debug.json

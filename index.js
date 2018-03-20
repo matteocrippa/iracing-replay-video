@@ -6,6 +6,7 @@ const utils = require('./lib/utils');
 const track = require('./lib/track');
 const ui = require('./lib/ui');
 const movie = require('./lib/movie.js');
+const fs = require('fs');
 
 // load data file
 const jsonFile = require('fs').readFileSync('convert/data.xml', 'utf8');
@@ -67,6 +68,9 @@ ui.generateEndSessionImage(data, true);
 console.log('🎨 - Paiting Race Image');
 ui.generateEndSessionImage(data, false);
 
+// dump data
+fs.writeFile('./tmp/data.json', JSON.stringify(data, null, 4));
+
 // preparing video
-console.log('🎥 - Preparing Video');
-movie.prepareVideo(data);
+//console.log('🎥 - Preparing Video');
+//movie.prepareVideo(data);

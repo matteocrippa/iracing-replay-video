@@ -49,9 +49,9 @@
       <% Object.keys(standings.order).forEach(function(k) { %>
         <% var item = standings.order[k]; %>
         <tr>
-          <td>1</td>
+          <td><%= (parseInt(k)+1) %></td>
           <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;&nbsp;&nbsp;</td>
-          <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>"><%= item.driver.surname %></td>
+          <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>"><%= item.driver.surname %> <% if (item.isOnCamera) { %> 🎥<%}%></td>
           <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
         </tr>
       <% }); %>
