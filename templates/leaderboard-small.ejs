@@ -1,15 +1,32 @@
 <html>
 <head>
   <style>
-    .lap-box {
-      background: rgba(0, 0, 0, 0.5);
-      left: 24px;
-      position: absolute;
-      top: 24px;
-      color: white;
+    .number{
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      padding: 5px;
+      width: 18px;
+      text-align: center;
     }
+
+    .round-corners-10px{
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+    .unround-left-corners{
+      -webkit-border-top-left-radius: 0px;
+      -webkit-border-bottom-left-radius: 0px;
+      -moz-border-radius-topleft: 0px;
+      -moz-border-radius-bottomleft: 0px;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+
     .box {
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.8);
       left: 24px;
       position: absolute;
       top: 84px;
@@ -18,9 +35,10 @@
     .inner {
       margin: 12px;
     }
-    small {
-      background: black;
-      color: white;
+    table {
+      margin-top: 8px;
+      border-spacing: 10px;
+      border-collapse: separate;
     }
     tr {
       font-size: 18px;
@@ -37,23 +55,20 @@
   </style>
 </head>
 <body>
-<div class="lap-box">
+<div class="box round-corners-10px unround-left-corners">
   <div class="inner">
-    <% if (standings.lap) { %><%= standings.lap %><% } %>
-  </div>
-</div>
-<div class="box">
-  <div class="inner">
-
+    <% if (standings.lap) { %>
+    <h2><%= standings.lap %></h2>
+    <% } %>
     <table>
       <% Object.keys(standings.order).forEach(function(k) { %>
-        <% var item = standings.order[k]; %>
-        <tr>
-          <td><%= (parseInt(k)+1) %></td>
-          <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;&nbsp;&nbsp;</td>
-          <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>"><%= item.driver.surname %> <% if (item.isOnCamera) { %> 🎥<%}%></td>
-          <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
-        </tr>
+      <% var item = standings.order[k]; %>
+      <tr>
+        <td class="number"><%= (parseInt(k)+1) %></td>
+        <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
+        <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>"><%= item.driver.surname %> <% if (item.isOnCamera) { %> 🎥<%}%></td>
+        <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
+      </tr>
       <% }); %>
     </table>
 
