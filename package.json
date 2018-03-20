@@ -15,9 +15,10 @@
     "xml-js": "^1.6.2"
   },
   "scripts": {
+    "clean": "rm ./tmp/*",
     "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",
-    "all": "node ./scripts/prepare.js && node ./scripts/images.js && node ./scripts/videos.js"
+    "all": "yarn run clean && yarn run data && yarn run images && yarn run video"
   }
 }

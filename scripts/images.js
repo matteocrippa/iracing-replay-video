@@ -2,6 +2,7 @@
 const ui = require('../lib/ui');
 const utils = require('../lib/utils');
 const path = require('path');
+const fs = require('fs');
 
 const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
 
