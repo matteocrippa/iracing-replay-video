@@ -1,6 +1,9 @@
 <html>
 <head>
   <style>
+    .center {
+      text-align: center;
+    }
     .box {
       background: rgba(0, 0, 0, 0.7);
       bottom: 0;
@@ -19,39 +22,53 @@
     li {
       display: inline-block;
     }
+    table {
+      width: 100%;
+      margin-top: 28px;
+      border-spacing: 10px;
+      border-collapse: separate;
+    }
+    tr {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: white;
+    }
+    .number{
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      padding: 5px;
+      width: 18px;
+      text-align: center;
+    }
+
+    .round-corners-10px{
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+
   </style>
 </head>
 <body>
-<div class="box">
+<div class="box round-corners-10px">
   <div class="inner">
-    <h1>Qualify Standings <%= track.name %></h1>
+    <h1 class="center">Qualify Standings <%= track.name %></h1>
     <hr/>
-    <% Object.keys(standings).forEach(function(k) { %>
+    <table>
+      <% Object.keys(standings).forEach(function(k) { %>
       <% var item = standings[k]; %>
-      <p>
-        <small><%= parseInt(k)+1 %></small> <b><%= item.driver.fullname %> <%= item.time %> <%= item.gap %></b>
-      </p>
-    <% }); %>
+      <tr>
+        <td class="number"><%= (parseInt(k)+1) %></td>
+        <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
+        <td><%= item.driver.fullname %></td>
+        <td><%= item.time %></td>
+        <td><%= item.gap %></td>
+      </tr>
+      <% }); %>
+    </table>
   </div>
 </div>
 </body>
 </html>
-
-<!--
-const d = {
-      position: driver.Position._text,
-      driver: getDriverById(driver.CarIdx._text),
-      time: converTimeToRacing(driver.Time._text), // input
-      gap: calculateGap(prev, driver.Time._text), // calculate gap
-      fastest: {
-        lap: driver.FastestLap._text,
-        time: converTimeToRacing(driver.FastestTime._text)
-      },
-      lap: {
-        lap: driver.Lap._text,
-        led: driver.LapsLed._text,
-        complete: driver.LapsComplete._text,
-        driven: driver.LapsDriven._text,
-      }
-    };
--->
