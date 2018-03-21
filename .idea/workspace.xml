@@ -4,9 +4,6 @@
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/movie.js" afterPath="$PROJECT_DIR$/lib/movie.js" />
-      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
-      <change beforePath="$PROJECT_DIR$/templates/qualify.ejs" afterPath="$PROJECT_DIR$/templates/qualify.ejs" />
-      <change beforePath="$PROJECT_DIR$/templates/race.ejs" afterPath="$PROJECT_DIR$/templates/race.ejs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,53 +17,9 @@
       <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="106" column="63" lean-forward="false" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
+            <state relative-caret-position="183">
+              <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qualify.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="race.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/race.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -239,7 +192,7 @@
       <workItem from="1521538304217" duration="13574000" />
       <workItem from="1521559166165" duration="13420000" />
       <workItem from="1521591192702" duration="1545000" />
-      <workItem from="1521625540663" duration="4540000" />
+      <workItem from="1521625540663" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -252,7 +205,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51973000" />
+    <option name="totallyTimeSpent" value="54503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="854" y="0" width="1706" height="1080" extended-state="0" />
@@ -542,11 +495,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
+    <entry file="file://$PROJECT_DIR$/templates/race.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -558,30 +523,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
+    <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/race.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="106" column="63" lean-forward="false" selection-start-line="106" selection-start-column="63" selection-end-line="106" selection-end-column="63" />
+        <state relative-caret-position="183">
+          <caret line="81" column="31" lean-forward="false" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
           <folding />
         </state>
       </provider>
