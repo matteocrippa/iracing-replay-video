@@ -8,6 +8,7 @@
   "dependencies": {
     "async": "^2.6.0",
     "bluebird": "^3.5.1",
+    "country-list": "^1.1.0",
     "ejs": "^2.5.7",
     "fluent-ffmpeg": "^2.1.2",
     "underscore": "^1.8.3",
