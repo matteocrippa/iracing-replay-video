@@ -27,23 +27,25 @@ const sessionInfo = sessionData.SessionInfo;
 const data = {};
 
 // generate data
-console.log('🚗 - Generating driver list');
 data.drivers = driver.generateDriverList(sessionData);
-console.log('🛣 - Generating track info');
+console.log('🚗  - Generated driver list');
+
 data.track = track.generateTrackData(sessionData);
-console.log('🏁 - Generating driver standings');
+console.log('🛣  - Generated track info');
+
 data.standings = generator.generateLeaderBoards(leaderBoards.LeaderBoard, data, camDrivers);
+console.log('👬 - Generated driver standings ('+data.standings.length+')');
 
 // prepare qualify data
 data.session = {};
 data.session.qualify = sessionInfo.Sessions._Sessions[1].ResultsPositions._ResultsPositions;
-console.log('🏁 - Generating Qualify standings');
 data.qualify = generator.generateSessionData(data, true);
+console.log('🚩 - Generated Qualify standings');
 
 // prepare race data
 data.session.race = sessionInfo.Sessions._Sessions[2].ResultsPositions._ResultsPositions;
-console.log('🏁 - Generating Racing standings');
 data.race = generator.generateSessionData(data, false);
+console.log('🏁 - Generated Racing standings');
 
 // dump data
 console.log('✅ - Json file written');

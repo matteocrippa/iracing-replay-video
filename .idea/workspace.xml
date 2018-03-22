@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/generator.js" afterPath="$PROJECT_DIR$/lib/generator.js" />
+      <change beforePath="$PROJECT_DIR$/scripts/prepare.js" afterPath="$PROJECT_DIR$/scripts/prepare.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,76 +18,18 @@
       <file leaf-file-name="intro.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="0">
               <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-              <folding>
-                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="track.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/track.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="93" lean-forward="false" selection-start-line="10" selection-start-column="93" selection-end-line="10" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/data.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="223006" column="31" lean-forward="false" selection-start-line="223006" selection-start-column="31" selection-end-line="223006" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qualify.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#small#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="race.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/race.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#small#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="driver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/driver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,18 +38,8 @@
       <file leaf-file-name="prepare.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state relative-caret-position="316">
+              <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -136,6 +70,8 @@
       <find>mazda</find>
       <find>japan</find>
       <find>club</find>
+      <find>&quot;isFastestLap&quot;:</find>
+      <find>[{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Fulvio Oggiano&quot;,&quot;surname&quot;:&quot;Oggiano&quot;,&quot;initial&quot;:&quot;FO&quot;,&quot;number&quot;:&quot;1&quot;,&quot;userid&quot;:&quot;312795&quot;,&quot;idx&quot;:&quot;1&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;ffffff&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.43&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Andreas Ribbecke&quot;,&quot;surname&quot;:&quot;Ribbecke&quot;,&quot;initial&quot;:&quot;AR&quot;,&quot;number&quot;:&quot;4&quot;,&quot;userid&quot;:&quot;317992&quot;,&quot;idx&quot;:&quot;4&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;9902a9&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.54&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Dominique Bastien&quot;,&quot;surname&quot;:&quot;Bastien&quot;,&quot;initial&quot;:&quot;DB&quot;,&quot;number&quot;:&quot;2&quot;,&quot;userid&quot;:&quot;118566&quot;,&quot;idx&quot;:&quot;2&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;111111&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 2.04&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Enrique Contreras&quot;,&quot;surname&quot;:&quot;Contreras&quot;,&quot;initial&quot;:&quot;EC&quot;,&quot;number&quot;:&quot;7&quot;,&quot;userid&quot;:&quot;311721&quot;,&quot;idx&quot;:&quot;7&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;16463a&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.62&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Adam Mariak&quot;,&quot;surname&quot;:&quot;Mariak&quot;,&quot;initial&quot;:&quot;AM&quot;,&quot;number&quot;:&quot;11&quot;,&quot;userid&quot;:&quot;305179&quot;,&quot;idx&quot;:&quot;11&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;00aeef&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.41&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Blair Loveday&quot;,&quot;surname&quot;:&quot;Loveday&quot;,&quot;initial&quot;:&quot;BL&quot;,&quot;number&quot;:&quot;8&quot;,&quot;userid&quot;:&quot;262333&quot;,&quot;idx&quot;:&quot;8&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;2b2fab&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 2.18&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Matteo Crippa&quot;,&quot;surname&quot;:&quot;Crippa&quot;,&quot;initial&quot;:&quot;MC&quot;,&quot;number&quot;:&quot;10&quot;,&quot;userid&quot;:&quot;216662&quot;,&quot;idx&quot;:&quot;10&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;43d046&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 3.55&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Marek Liolias&quot;,&quot;surname&quot;:&quot;Liolias&quot;,&quot;initial&quot;:&quot;ML&quot;,&quot;number&quot;:&quot;5&quot;,&quot;userid&quot;:&quot;17374&quot;,&quot;idx&quot;:&quot;5&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;000000&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#00c702&quot;,&quot;rating&quot;:&quot;B 3.42&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:true,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Zachary Dean&quot;,&quot;surname&quot;:&quot;Dean&quot;,&quot;initial&quot;:&quot;ZD&quot;,&quot;number&quot;:&quot;12&quot;,&quot;userid&quot;:&quot;301595&quot;,&quot;idx&quot;:&quot;12&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;141188&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 3.74&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Miguel Molina Jr&quot;,&quot;surname&quot;:&quot;Jr&quot;,&quot;initial&quot;:&quot;MM&quot;,&quot;number&quot;:&quot;3&quot;,&quot;userid&quot;:&quot;313139&quot;,&quot;idx&quot;:&quot;3&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;ffffff&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.50&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Jürg Monzared&quot;,&quot;surname&quot;:&quot;Monzared&quot;,&quot;initial&quot;:&quot;JM&quot;,&quot;number&quot;:&quot;6&quot;,&quot;userid&quot;:&quot;314121&quot;,&quot;idx&quot;:&quot;6&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;000000&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.59&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Frank Alessi&quot;,&quot;surname&quot;:&quot;Alessi&quot;,&quot;initial&quot;:&quot;FA&quot;,&quot;number&quot;:&quot;9&quot;,&quot;userid&quot;:&quot;260125&quot;,&quot;idx&quot;:&quot;9&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;e97f26&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 3.16&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0}]</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,7 +93,6 @@
         <option value="$PROJECT_DIR$/lib/utils.js" />
         <option value="$PROJECT_DIR$/scripts/videos.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/output/.gitkeep" />
         <option value="$PROJECT_DIR$/lib/movie.js" />
@@ -168,12 +103,13 @@
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/scripts/images.js" />
-        <option value="$PROJECT_DIR$/scripts/prepare.js" />
         <option value="$PROJECT_DIR$/lib/driver.js" />
         <option value="$PROJECT_DIR$/templates/qualify.ejs" />
         <option value="$PROJECT_DIR$/lib/track.js" />
         <option value="$PROJECT_DIR$/templates/intro.ejs" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
+        <option value="$PROJECT_DIR$/scripts/prepare.js" />
+        <option value="$PROJECT_DIR$/lib/generator.js" />
       </list>
     </option>
   </component>
@@ -217,16 +153,6 @@
             <path>
               <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
               <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="input" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -243,8 +169,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +223,8 @@
       <workItem from="1521718244520" duration="54000" />
       <workItem from="1521719702690" duration="7000" />
       <workItem from="1521719838803" duration="694000" />
-      <workItem from="1521724023494" duration="2758000" />
+      <workItem from="1521724023494" duration="2790000" />
+      <workItem from="1521746110539" duration="1265000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -310,28 +237,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59167000" />
+    <option name="totallyTimeSpent" value="60464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23819743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24177396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21490683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21490683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279503" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -396,15 +324,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data.xsd.xml" />
-    <entry file="file://$PROJECT_DIR$/debug.json" />
     <entry file="file://$PROJECT_DIR$/templates/leaderboard-full.ejs" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-end.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-start.png" />
-    <entry file="file://$PROJECT_DIR$/tmp/lb-0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xml-js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -436,16 +358,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/lb-841.png" />
     <entry file="file://$PROJECT_DIR$/node_modules/synchronize/sync.js" />
-    <entry file="file://$PROJECT_DIR$/tmp/lb-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/lb-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/lb-4.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -481,11 +393,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tmp/lb-58.png" />
-    <entry file="file://$PROJECT_DIR$/tmp/lb-3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -520,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +436,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
           <caret line="47" column="61" lean-forward="false" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -552,12 +456,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
+        <state relative-caret-position="855">
           <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,25 +467,8 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
             <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,40 +480,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="203" column="26" lean-forward="false" selection-start-line="203" selection-start-column="21" selection-end-line="203" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="0">
           <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input/data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="3345090">
           <caret line="223006" column="31" lean-forward="false" selection-start-line="223006" selection-start-column="31" selection-end-line="223006" selection-end-column="31" />
           <folding />
         </state>
@@ -637,12 +498,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/race.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="n#src#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#0;n#td#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="39">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/lb-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/lb-3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/lb-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/lb-0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/data.json">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2517">
+          <caret line="294" column="43" lean-forward="false" selection-start-line="294" selection-start-column="43" selection-end-line="294" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
