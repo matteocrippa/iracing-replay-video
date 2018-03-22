@@ -1,6 +1,10 @@
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <style>
+    body {
+      font-family: 'Abel', sans-serif;
+    }
     .center {
       text-align: center;
     }
@@ -48,12 +52,15 @@
       -moz-border-radius: 10px;
       border-radius: 10px;
     }
-
+    img {
+      width: 100%;
+    }
   </style>
 </head>
 <body>
 <div class="box round-corners-10px">
   <div class="inner">
+    <img src="../input/banner.jpg"/>
     <h1 class="center">Qualify Standings <%= track.name %></h1>
     <hr/>
     <table>

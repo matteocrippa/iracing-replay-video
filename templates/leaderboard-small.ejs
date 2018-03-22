@@ -1,6 +1,10 @@
 <html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
   <style>
+    body {
+      font-family: 'Abel', sans-serif;
+    }
     .number{
       background-color: white;
       color: black;
@@ -56,6 +60,8 @@
       padding-left: 3px;
     }
   </style>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="box round-corners-10px unround-left-corners">
@@ -66,10 +72,13 @@
     <table>
       <% Object.keys(standings.order).forEach(function(k) { %>
       <% var item = standings.order[k]; %>
-      <tr>
+      <tr class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>">
         <td class="number"><%= (parseInt(k)+1) %></td>
         <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
-        <td class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %> padded"><%= item.driver.surname %></td>
+        <td class="padded">
+          <%= item.driver.surname %>
+          <% if(item.isOnCamera) { %><i class="fas fa-car"></i><% } %>
+        </td>
         <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
       </tr>
       <% }); %>

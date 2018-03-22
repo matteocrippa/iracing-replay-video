@@ -15,6 +15,7 @@
   - short video > `intro.mp4`
   - long video > `video.mp4`
   - xml file > `data.xml`
+  - logo file > `banner.jpg'
   
 - Move all files into `convert` directory
 
