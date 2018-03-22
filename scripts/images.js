@@ -9,6 +9,12 @@ const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.jso
 // load extra
 utils.cleanUpTmps()
 
+// get banner image
+if(fs.existsSync(path.resolve(__dirname, '../input/banner.jpg'))) {
+  const image_data = fs.readFileSync(path.resolve(__dirname, '../input/banner.jpg'));
+  data.banner = new Buffer(image_data, 'binary').toString('base64');
+}
+
 // intro image
 console.log('🎨 - Paiting Intro Image');
 ui.generateIntroImage(data);
