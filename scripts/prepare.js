@@ -11,7 +11,7 @@ const options = {
   compact: true,
   spaces: 4,
   trim: true,
-  nativeType: true,
+  nativeType: false,
   alwaysArray: false
 };
 const json = JSON.parse(convert.xml2json(jsonFile, options));

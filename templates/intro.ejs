@@ -1,6 +1,7 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.css" />
   <style>
     body {
       font-family: 'Abel', sans-serif;
@@ -39,10 +40,9 @@
       <img src="data:image/jpg;base64, <%= data.banner %>"/>
     <% } %>
     <h1><%= data.track.name %></h1>
-    <h3><%= data.track.city %> (<%= data.track.country %>)</h3>
-    <h4><i class="fas fa-car"></i> Length</h4>
-    <p><%= data.track.length %></p>
-    <h4><i class="fas fa-sun"></i> Weather</h4>
+    <h3><%= data.track.city %> ( <span class="flag-icon flag-icon-<%= data.track.country.iso %> flag-icon-squared"></span> <%= data.track.country.full %> )</h3>
+    <h4><i class="fas fa-car"></i> Length: <%= data.track.length %></h4>
+    <h4><i class="fas fa-sun"></i> Weather:</h4>
     <ul>
       <li>Air temp: <%= data.track.weather.temperature.air %></li>
       <li>Track temp: <%= data.track.weather.temperature.track %></li>
