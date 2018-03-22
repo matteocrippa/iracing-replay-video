@@ -17,12 +17,12 @@ const options = {
 const json = JSON.parse(convert.xml2json(jsonFile, options));
 
 // unwrap data
-const leaderBoards = json.OverlayData.LeaderBoards;
+const leaderBoards = json.OverlayData.LeaderBoards.LeaderBoard;
 const camDrivers = json.OverlayData.CamDrivers;
-const fastestLaps = json.OverlayData.FastestLaps;
+const fastestLaps = json.OverlayData.FastestLaps.FastLap;
 const messageStates = json.OverlayData.MessageStates;
 const sessionData = json.OverlayData.SessionData;
-const sessionInfo = sessionData.SessionInfo;
+const sessionInfo = sessionData.SessionInfo.Sessions;
 
 const data = {};
 
@@ -33,17 +33,17 @@ console.log('🚗  - Generated driver list');
 data.track = track.generateTrackData(sessionData);
 console.log('🛣  - Generated track info');
 
-data.standings = generator.generateLeaderBoards(leaderBoards.LeaderBoard, data, camDrivers);
+data.standings = generator.generateLeaderBoards(leaderBoards, data, camDrivers, fastestLaps);
 console.log('👬 - Generated driver standings ('+data.standings.length+')');
 
 // prepare qualify data
 data.session = {};
-data.session.qualify = sessionInfo.Sessions._Sessions[1].ResultsPositions._ResultsPositions;
+data.session.qualify = sessionInfo._Sessions[1].ResultsPositions._ResultsPositions;
 data.qualify = generator.generateSessionData(data, true);
 console.log('🚩 - Generated Qualify standings');
 
 // prepare race data
-data.session.race = sessionInfo.Sessions._Sessions[2].ResultsPositions._ResultsPositions;
+data.session.race = sessionInfo._Sessions[2].ResultsPositions._ResultsPositions;
 data.race = generator.generateSessionData(data, false);
 console.log('🏁 - Generated Racing standings');
 
