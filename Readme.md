@@ -1,5 +1,7 @@
 # iRacing Replay Video
 
+![](https://github.com/matteocrippa/iracing-replay-video/blob/master/.github/screen2.png?raw=true)
+
 ## Requirements
 - iRacing game installed
 - iRacing [Replay Overlay]( https://github.com/vipoo/iRacingReplayOverlay.net )
@@ -45,3 +47,7 @@ Open `templates` directory and edit `ejs` files.
 - v0.0.1 / first release
 - v0.0.2 / revamped base UI + banner support
 - v0.0.3 / fastest lap support
+
+## Screenshots
+
+![](https://github.com/matteocrippa/iracing-replay-video/blob/master/.github/screen1.png?raw=true)

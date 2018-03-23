@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/templates/fastest-lap.ejs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,12 +34,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
               <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="693">
+                <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -235,7 +248,7 @@
       <workItem from="1521719838803" duration="694000" />
       <workItem from="1521724023494" duration="2790000" />
       <workItem from="1521746110539" duration="7165000" />
-      <workItem from="1521793765499" duration="2234000" />
+      <workItem from="1521793765499" duration="2613000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -248,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68598000" />
+    <option name="totallyTimeSpent" value="68977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="854" y="0" width="1706" height="1080" extended-state="0" />
@@ -522,22 +535,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="693">
+            <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
