@@ -16,7 +16,6 @@
     "xml-js": "^1.6.2"
   },
   "scripts": {
-    "clean": "rm ./tmp/*",
     "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",

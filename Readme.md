@@ -36,7 +36,6 @@ You can use `yarn run all` to have all the stuff in place, or use them in this s
 - `yarn run data` < Generates the new data file optimizing it
 - `yarn run images` < Generates in `.\tmp` directory all the overlays
 - `yarn run video` < Generates the videos
-- `yarn run clean` < Cleans the content in `.\tmp` directory
 
 ## Customise
 
