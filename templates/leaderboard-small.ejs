@@ -80,7 +80,7 @@
           <%= item.driver.surname %>
           <% if(item.isOnCamera) { %><i class="fas fa-car"></i><% } %>
         </td>
-        <td><% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
+        <td><% if (item.isFastestLap) { %> <%= item.fastestLap %> <% } %> <% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
       </tr>
       <% }); %>
     </table>
