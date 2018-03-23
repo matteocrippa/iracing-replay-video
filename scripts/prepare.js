@@ -26,6 +26,17 @@ const sessionInfo = sessionData.SessionInfo.Sessions;
 
 const data = {};
 
+// TODO: improve and use as a param
+const configuration = {
+  fastestLap: {
+    visibleFor: 40,
+    active: true
+  },
+  pit: {
+    active: true
+  }
+};
+
 // generate data
 data.drivers = driver.generateDriverList(sessionData);
 console.log('🚗  - Generated driver list');
@@ -33,7 +44,7 @@ console.log('🚗  - Generated driver list');
 data.track = track.generateTrackData(sessionData);
 console.log('🛣  - Generated track info');
 
-data.standings = generator.generateLeaderBoards(leaderBoards, data, camDrivers, fastestLaps);
+data.standings = generator.generateLeaderBoards(leaderBoards, data, camDrivers, fastestLaps, configuration);
 console.log('👬 - Generated driver standings ('+data.standings.length+')');
 
 // prepare qualify data

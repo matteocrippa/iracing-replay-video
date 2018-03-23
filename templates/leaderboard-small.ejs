@@ -60,6 +60,9 @@
     .padded {
       padding-left: 3px;
     }
+    .clear {
+      background: rgba(0,0,0,0) !important;
+    }
   </style>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
@@ -78,9 +81,14 @@
         <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
         <td class="padded">
           <%= item.driver.surname %>
-          <% if(item.isOnCamera) { %><i class="fas fa-car"></i><% } %>
+          <% if(item.isOnCamera) { %> <i class="fas fa-car"></i> <% } %>
         </td>
-        <td><% if (item.isFastestLap) { %> <%= item.fastestLap %> <% } %> <% if (item.pit > 0) { %>(<%= item.pit %>)<% } %></td>
+        <td <% if (item.fastestLap === 0) { %>style="display: none;"<% } %>>
+          <% if (item.fastestLap !== 0) { %> <%= item.fastestLap %> <% } %>
+        </td>
+        <td <% if (item.pit === 0) { %>style="display: none;"<% } %>>
+          (<%= item.pit %>)
+        </td>
       </tr>
       <% }); %>
     </table>
