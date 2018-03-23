@@ -85,6 +85,10 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
+country-list-js@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/country-list-js/-/country-list-js-0.0.3.tgz#88e521f775c8e0bae0a1e4631eb3fb55a2008431"
+
 country-list@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/country-list/-/country-list-1.1.0.tgz#3ea3608857e17458657d129e1d737e4c2f79775b"
