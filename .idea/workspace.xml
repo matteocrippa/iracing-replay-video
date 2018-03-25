@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/movie.js" afterPath="$PROJECT_DIR$/lib/movie.js" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change beforePath="$PROJECT_DIR$/lib/generator.js" afterPath="$PROJECT_DIR$/lib/generator.js" />
+      <change beforePath="$PROJECT_DIR$/scripts/prepare.js" afterPath="$PROJECT_DIR$/scripts/prepare.js" />
+      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +19,54 @@
       <file leaf-file-name="generator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="210">
+              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="76" column="85" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#4;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepare.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="149" column="64" lean-forward="false" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
+            <state relative-caret-position="193">
+              <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -38,7 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MX-5</find>
       <find>Italy</find>
       <find>generateLeaderBoards</find>
       <find>RacePosition&gt;</find>
@@ -68,6 +105,7 @@
       <find>message</find>
       <find>items</find>
       <find>fs</find>
+      <find>populateFastestLap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,13 +137,13 @@
         <option value="$PROJECT_DIR$/templates/qualify.ejs" />
         <option value="$PROJECT_DIR$/templates/intro.ejs" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
-        <option value="$PROJECT_DIR$/scripts/prepare.js" />
-        <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/lib/track.js" />
-        <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/lib/movie.js" />
+        <option value="$PROJECT_DIR$/scripts/prepare.js" />
+        <option value="$PROJECT_DIR$/lib/generator.js" />
+        <option value="$PROJECT_DIR$/Readme.md" />
+        <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
       </list>
     </option>
   </component>
@@ -165,11 +203,6 @@
               <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
               <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tmp" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -237,7 +270,7 @@
       <workItem from="1521852269878" duration="1217000" />
       <workItem from="1521853873121" duration="2000" />
       <workItem from="1521899559516" duration="149000" />
-      <workItem from="1521975348449" duration="1940000" />
+      <workItem from="1521975348449" duration="3721000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -250,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81711000" />
+    <option name="totallyTimeSpent" value="83492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -438,30 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
-            <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="88" column="59" lean-forward="false" selection-start-line="88" selection-start-column="59" selection-end-line="88" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -481,14 +490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,9 +517,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="149" column="64" lean-forward="false" selection-start-line="149" selection-start-column="64" selection-end-line="149" selection-end-column="64" />
+        <state relative-caret-position="193">
+          <caret line="130" column="52" lean-forward="true" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="76" column="85" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="101" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#4;n#tr#0;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

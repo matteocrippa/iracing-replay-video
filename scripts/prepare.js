@@ -23,16 +23,23 @@ const fastestLaps = json.OverlayData.FastestLaps.FastLap;
 const messageStates = json.OverlayData.MessageStates;
 const sessionData = json.OverlayData.SessionData;
 const sessionInfo = sessionData.SessionInfo.Sessions;
+const raceEvents = json.OverlayData.RaceEvents.RaceEvent;
 
+// data
 const data = {};
+data.session = {};
 
 // TODO: improve and use as a param
+// configuration stuff
 const configuration = {
   fastestLap: {
     visibleFor: 40,
     active: true
   },
   pit: {
+    active: true
+  },
+  incidents: {
     active: true
   }
 };
@@ -44,11 +51,12 @@ console.log('🚗  - Generated driver list');
 data.track = track.generateTrackData(sessionData);
 console.log('🛣  - Generated track info');
 
-data.standings = generator.generateLeaderBoards(leaderBoards, data, camDrivers, fastestLaps, configuration);
+data.events = raceEvents;
+data.fastest = fastestLaps;
+data.standings = generator.generateLeaderBoards(leaderBoards, data, camDrivers, configuration);
 console.log('👬 - Generated driver standings ('+data.standings.length+')');
 
 // prepare qualify data
-data.session = {};
 data.session.qualify = sessionInfo._Sessions[1].ResultsPositions._ResultsPositions;
 data.qualify = generator.generateSessionData(data, true);
 console.log('🚩 - Generated Qualify standings');
