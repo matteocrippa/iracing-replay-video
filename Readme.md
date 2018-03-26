@@ -49,6 +49,7 @@ Open `templates` directory and edit `ejs` files.
 - v0.0.4 / better fastest lap handler + configuration early implementation
 - v0.0.5 / fix long race issue and windows ffmpeg compatibility
 - v0.0.6 / add yellow flag support
+- v0.0.7 / improved performance, fixed windows issue on long video
 
 ## Screenshots
 
