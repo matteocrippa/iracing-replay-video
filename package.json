@@ -11,6 +11,7 @@
     "country-list": "^1.1.0",
     "ejs": "^2.5.7",
     "fluent-ffmpeg": "^2.1.2",
+    "get-video-duration": "^0.2.0",
     "underscore": "^1.8.3",
     "webshot": "^0.18.0",
     "xml-js": "^1.6.2"
