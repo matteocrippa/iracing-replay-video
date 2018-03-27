@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="$PROJECT_DIR$/tmp/0.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/1.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/10.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/11.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/12.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/13.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/14.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/15.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/16.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/17.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/18.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/19.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/2.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/20.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/21.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/22.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/23.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/24.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/25.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/26.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/27.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/28.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/29.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/3.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/30.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/31.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/32.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/33.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/34.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/35.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/36.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/37.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/38.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/39.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/4.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/40.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/41.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/42.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/43.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/44.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/45.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/46.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/47.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/48.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/49.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/5.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/50.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/51.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/52.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/53.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/54.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/55.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/56.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/57.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/58.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/59.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/6.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/60.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/61.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/7.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/8.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/9.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/final.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/intro.mp3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/tmp/qualify.mp3" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/voice.js" afterPath="$PROJECT_DIR$/lib/voice.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -121,17 +56,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voice.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="voice.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/voice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -224,8 +159,8 @@
         <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/scripts/commentary.js" />
-        <option value="$PROJECT_DIR$/lib/voice.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/lib/voice.js" />
       </list>
     </option>
   </component>
@@ -355,7 +290,7 @@
       <workItem from="1521975348449" duration="9336000" />
       <workItem from="1522009013624" duration="40000" />
       <workItem from="1522062032996" duration="11017000" />
-      <workItem from="1522151304800" duration="4736000" />
+      <workItem from="1522151304800" duration="4771000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -368,7 +303,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104900000" />
+    <option name="totallyTimeSpent" value="104935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -662,6 +597,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/commentary.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -672,16 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/voice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding />
         </state>
       </provider>
