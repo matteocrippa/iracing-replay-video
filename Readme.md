@@ -30,12 +30,13 @@
 
 
 ### Extra
-In order to build the final video, 3 different steps are needed to be put in place, i've set direct spawn commands for them.
+In order to build the final video, 4 different steps are needed to be put in place, i've set direct spawn commands for them.
 You can use `yarn all` to have all the stuff in place, or use them in this sequence:
 
-- `yarn data` < Generates the new data file optimizing it
-- `yarn images` < Generates in `.\tmp` directory all the overlays.
+- `yarn data` < Generates the new data file optimizing it.
+- `yarn images` < Generates all the overlays.
 - `yarn video` < Generates the videos.
+- `yarn commentary` < Generate the commentary audios.
 - `yarn clean` < Clean up `\tmp` directory contents.
 
 ## Customise
@@ -53,6 +54,7 @@ Open `templates` directory and edit `ejs` files.
 - v0.0.7 / improved performance, fixed windows issue on long video
 - v0.0.8 / cleanup code, improved cleaning up directory
 - v0.0.9 / add support for last lap white flag header
+- v0.0.10 / add support for commentary (experimental)
 
 ## Screenshots
 
