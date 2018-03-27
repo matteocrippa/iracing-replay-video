@@ -17,9 +17,10 @@
     "xml-js": "^1.6.2"
   },
   "scripts": {
+    "clean": "node ./scripts/clean.js",
     "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",
-    "all": "yarn run data && yarn run images && yarn run video"
+    "all": "yarn clean && yarn data && yarn images && yarn video"
   }
 }
