@@ -13,7 +13,7 @@ console.log('👨‍🎤 preparing voices');
 const commentary = {
   intro: {
     file: 'intro.mp3',
-    text: "Welcome to "+ data.track.name +" circuit in "+ data.track.city +", "+ data.track.country +". For an exiciting race"
+    text: "Welcome to "+ data.track.name +" in "+ data.track.city +", "+ data.track.country.full +". For an exiciting race"
   },
   qualify: {
     file: 'qualify.mp3',
