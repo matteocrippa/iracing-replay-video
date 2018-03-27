@@ -85,7 +85,7 @@
       <% var item = standings.order[k]; %>
       <tr class="<% if (item.isFastestLap) { %>fastestlap <% } %> <% if (item.isOnCamera) { %>current <% } %>">
         <td class="number"><%= (parseInt(k)+1) %></td>
-        <td style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
+        <td class="round-corners-10px" style="background: <%= item.driver.color %>; border: 1px solid white;">&nbsp;</td>
         <td class="padded">
           <%= item.driver.surname %>
           <% if(item.isOnCamera) { %> <i class="fas fa-car"></i> <% } %>
