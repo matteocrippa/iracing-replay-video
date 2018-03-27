@@ -6,5 +6,6 @@ output/*.mp4
 tmp/*.png
 tmp/*.mp4
 tmp/*.json
+tmp/*.mp3
 debug.json
 yarn-error.log
