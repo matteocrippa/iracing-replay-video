@@ -24,6 +24,6 @@
     "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",
-    "all": "yarn clean && yarn data && yarn images && yarn video"
+    "all": "yarn clean && yarn data && yarn commentary && yarn images && yarn video"
   }
 }
