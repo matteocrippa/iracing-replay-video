@@ -78,7 +78,7 @@
 <div class="box round-corners-10px unround-left-corners">
   <div class="inner">
     <% if (standings.lap) { %>
-    <h2 style="<% if (standings.flags.yellow) { %>yellowflag<% } %><% if (standings.lap === "Last Lap") { %>lastlap<% } %>"><%= standings.lap %></h2>
+    <h2 style="<% if (standings.flags.yellow) { %>yellowflag<% } %><% if (standings.lap === "Final Lap") { %>lastlap<% } %>"><%= standings.lap %></h2>
     <% } %>
     <table>
       <% Object.keys(standings.order).forEach(function(k) { %>
