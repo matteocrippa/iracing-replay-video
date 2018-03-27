@@ -9,9 +9,11 @@
     "async": "^2.6.0",
     "bluebird": "^3.5.1",
     "country-list": "^1.1.0",
+    "download-file": "^0.1.5",
     "ejs": "^2.5.7",
     "fluent-ffmpeg": "^2.1.2",
     "get-video-duration": "^0.2.0",
+    "google-tts-api": "^0.0.2",
     "underscore": "^1.8.3",
     "webshot": "^0.18.0",
     "xml-js": "^1.6.2"
