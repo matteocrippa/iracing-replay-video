@@ -70,8 +70,10 @@ data.race = generator.generateSessionData(data, false);
 console.log('🏁 - Generated Racing standings');
 
 // prepare race texts
-data.commentary = generator.generateCommentary(messageStates);
-console.log('👨‍🎤 - Generated Racing commentary');
+if(configuration.commentary.active) {
+  data.commentary = generator.generateCommentary(messageStates);
+  console.log('👨‍🎤 - Generated Racing commentary');
+}
 
 // dump data
 console.log('✅ - Json file written');
