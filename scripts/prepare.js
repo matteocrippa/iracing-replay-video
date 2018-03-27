@@ -20,7 +20,7 @@ const json = JSON.parse(convert.xml2json(jsonFile, options));
 const leaderBoards = json.OverlayData.LeaderBoards.LeaderBoard;
 const camDrivers = json.OverlayData.CamDrivers;
 const fastestLaps = json.OverlayData.FastestLaps.FastLap;
-const messageStates = json.OverlayData.MessageStates;
+const messageStates = json.OverlayData.MessageStates.MessageState;
 const sessionData = json.OverlayData.SessionData;
 const sessionInfo = sessionData.SessionInfo.Sessions;
 const raceEvents = json.OverlayData.RaceEvents.RaceEvent;
@@ -40,6 +40,9 @@ const configuration = {
     active: true
   },
   incidents: {
+    active: true
+  },
+  commentary: {
     active: true
   }
 };
@@ -65,6 +68,10 @@ console.log('🚩 - Generated Qualify standings');
 data.session.race = sessionInfo._Sessions[2].ResultsPositions._ResultsPositions;
 data.race = generator.generateSessionData(data, false);
 console.log('🏁 - Generated Racing standings');
+
+// prepare race texts
+data.commentary = generator.generateCommentary(messageStates);
+console.log('👨‍🎤 - Generated Racing commentary');
 
 // dump data
 console.log('✅ - Json file written');

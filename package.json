@@ -20,6 +20,7 @@
   },
   "scripts": {
     "clean": "node ./scripts/clean.js",
+    "commentary": "node ./scripts/commentary.js",
     "data": "node ./scripts/prepare.js",
     "images": "node ./scripts/images.js",
     "video": "node ./scripts/videos.js",

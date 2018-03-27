@@ -3,6 +3,7 @@ const ui = require('../lib/ui');
 const path = require('path');
 const fs = require('fs');
 
+// retrieve json data
 const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
 
 // get banner image
