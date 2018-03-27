@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/generator.js" afterPath="$PROJECT_DIR$/lib/generator.js" />
-      <change beforePath="$PROJECT_DIR$/lib/movie.js" afterPath="$PROJECT_DIR$/lib/movie.js" />
-      <change beforePath="$PROJECT_DIR$/scripts/prepare.js" afterPath="$PROJECT_DIR$/scripts/prepare.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/lib/generator.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+              <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -191,11 +188,6 @@
               <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="iracing-replay-video" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iracing-replay-video" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tmp" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -268,7 +260,7 @@
       <workItem from="1522062032996" duration="11017000" />
       <workItem from="1522151304800" duration="7914000" />
       <workItem from="1522177208048" duration="709000" />
-      <workItem from="1522190081168" duration="459000" />
+      <workItem from="1522190081168" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -281,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109246000" />
+    <option name="totallyTimeSpent" value="109280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -533,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/lib/generator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="90" column="53" lean-forward="true" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+          <caret line="90" column="53" lean-forward="false" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
           <folding />
         </state>
       </provider>
