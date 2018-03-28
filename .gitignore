@@ -1,4 +1,5 @@
 node_modules
+input/*.jpg
 input/*.png
 input/*.mp4
 input/*.xml
