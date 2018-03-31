@@ -3,6 +3,7 @@ input/*.jpg
 input/*.png
 input/*.mp4
 input/*.xml
+input/*.mp3
 output/*.mp4
 tmp/*.png
 tmp/*.mp4

@@ -18,6 +18,7 @@
   - short video > `intro.mp4`
   - long video > `video.mp4`
   - xml file > `data.xml`
+  - xml file > `music.mp3`
   - logo file > `banner.jpg` _(optional)_
   
 - Move all files into `input` directory
@@ -55,6 +56,7 @@ Open `templates` directory and edit `ejs` files.
 - v0.0.8 / cleanup code, improved cleaning up directory
 - v0.0.9 / add support for last lap white flag header
 - v0.0.10 / add support for commentary (experimental)
+- v0.0.11 / add support for music during intro and improves yellow flags
 
 ## Screenshots
 
