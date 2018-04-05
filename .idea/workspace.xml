@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/qualify.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/qualify.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/race.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/race.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,29 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qualify.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="89" column="38" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="race.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/race.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+            <state relative-caret-position="130">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -151,7 +131,6 @@
         <option value="$PROJECT_DIR$/templates/race.html" />
         <option value="$PROJECT_DIR$/templates/intro.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/lib/driver.js" />
@@ -168,6 +147,7 @@
         <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
         <option value="$PROJECT_DIR$/templates/qualify.ejs" />
+        <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
       </list>
     </option>
   </component>
@@ -297,7 +277,7 @@
       <workItem from="1522333108840" duration="391000" />
       <workItem from="1522334196219" duration="385000" />
       <workItem from="1522497468434" duration="1937000" />
-      <workItem from="1522960201624" duration="2041000" />
+      <workItem from="1522960201624" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -310,7 +290,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114550000" />
+    <option name="totallyTimeSpent" value="114751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -514,20 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="89" column="38" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/race.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -539,6 +505,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
