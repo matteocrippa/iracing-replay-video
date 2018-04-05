@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/movie.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="41" column="26" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="319">
+              <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -34,17 +25,8 @@
       <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="312">
+              <caret line="62" column="56" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -142,12 +124,12 @@
         <option value="$PROJECT_DIR$/scripts/commentary.js" />
         <option value="$PROJECT_DIR$/scripts/videos.js" />
         <option value="$PROJECT_DIR$/lib/utils.js" />
-        <option value="$PROJECT_DIR$/lib/movie.js" />
         <option value="$PROJECT_DIR$/scripts/images.js" />
         <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
         <option value="$PROJECT_DIR$/templates/qualify.ejs" />
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
+        <option value="$PROJECT_DIR$/lib/movie.js" />
       </list>
     </option>
   </component>
@@ -277,7 +259,7 @@
       <workItem from="1522333108840" duration="391000" />
       <workItem from="1522334196219" duration="385000" />
       <workItem from="1522497468434" duration="1937000" />
-      <workItem from="1522960201624" duration="2242000" />
+      <workItem from="1522960201624" duration="3143000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -290,7 +272,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114751000" />
+    <option name="totallyTimeSpent" value="115652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -473,20 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/images.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -508,17 +476,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui.js">
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
+        <state relative-caret-position="145">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+    <entry file="file://$PROJECT_DIR$/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        <state relative-caret-position="301">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="62" column="56" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/movie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="210" column="29" selection-start-line="210" selection-start-column="29" selection-end-line="210" selection-end-column="29" />
         </state>
       </provider>
     </entry>
