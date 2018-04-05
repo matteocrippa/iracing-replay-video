@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/input/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/driver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/track.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/track.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/voice.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/voice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/commentary.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/commentary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/prepare.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/prepare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/videos.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movie.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4251">
-              <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
+            <state relative-caret-position="98">
+              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -48,20 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="videos.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/videos.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CarNumber</find>
       <find>CarClassColor</find>
       <find>country</find>
       <find>mazda</find>
@@ -91,6 +67,7 @@
       <find>eve</find>
       <find>yellow</find>
       <find>const</find>
+      <find>exist</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -123,7 +100,6 @@
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/lib/movie.js" />
         <option value="$PROJECT_DIR$/lib/driver.js" />
         <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/scripts/prepare.js" />
@@ -135,6 +111,7 @@
         <option value="$PROJECT_DIR$/scripts/commentary.js" />
         <option value="$PROJECT_DIR$/scripts/images.js" />
         <option value="$PROJECT_DIR$/scripts/videos.js" />
+        <option value="$PROJECT_DIR$/lib/movie.js" />
       </list>
     </option>
   </component>
@@ -264,7 +241,7 @@
       <workItem from="1522333108840" duration="391000" />
       <workItem from="1522334196219" duration="385000" />
       <workItem from="1522497468434" duration="1937000" />
-      <workItem from="1522960201624" duration="274000" />
+      <workItem from="1522960201624" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -277,28 +254,28 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112783000" />
+    <option name="totallyTimeSpent" value="113229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34246576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34246576" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -415,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4251">
-          <caret line="296" column="9" selection-start-line="296" selection-start-column="9" selection-end-line="296" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/driver.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -492,6 +462,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/videos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -502,10 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/videos.js">
+    <entry file="file://$PROJECT_DIR$/lib/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="98">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
