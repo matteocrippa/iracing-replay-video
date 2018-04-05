@@ -15,7 +15,7 @@
 - Run `npm install` or `yarn install`
 
 - Rename files generate by iRacing Replay Overlay (iRO) in this way
-  - short video > `intro.mp4`
+  - short video > `intro.mp4` _(optional)_
   - long video > `video.mp4`
   - xml file > `data.xml`
   - xml file > `music.mp3`

@@ -1,14 +1,14 @@
 // require
-const ui = require('../lib/ui');
-const path = require('path');
-const fs = require('fs');
+var ui = require('../lib/ui');
+var path = require('path');
+var fs = require('fs');
 
 // retrieve json data
-const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
+var data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
 
 // get banner image
 if(fs.existsSync(path.resolve(__dirname, '../input/banner.jpg'))) {
-  const image_data = fs.readFileSync(path.resolve(__dirname, '../input/banner.jpg'));
+  var image_data = fs.readFileSync(path.resolve(__dirname, '../input/banner.jpg'));
   data.banner = new Buffer(image_data, 'binary').toString('base64');
 }
 

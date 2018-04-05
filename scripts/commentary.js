@@ -1,16 +1,16 @@
 // require
-const voice = require('../lib/voice');
-const fs = require('fs');
-const path = require('path');
+var voice = require('../lib/voice');
+var fs = require('fs');
+var path = require('path');
 
 // retrieve json data
-const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
+var data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
 
 // prepare comments
 console.log('👨‍🎤 preparing voices');
 
 // voices
-const commentary = {
+var commentary = {
   intro: {
     file: 'intro.mp3',
     text: "Welcome to "+ data.track.name +" in "+ data.track.city +", "+ data.track.country.full +". For an exiciting race"

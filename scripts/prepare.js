@@ -1,37 +1,37 @@
 // require
-const convert = require('xml-js');
-const generator = require('../lib/generator');
-const driver = require('../lib/driver');
-const track = require('../lib/track');
-const fs = require('fs');
+var convert = require('xml-js');
+var generator = require('../lib/generator');
+var driver = require('../lib/driver');
+var track = require('../lib/track');
+var fs = require('fs');
 
 // load data file
-const jsonFile = require('fs').readFileSync('input/data.xml', 'utf8');
-const options = {
+var jsonFile = require('fs').readFileSync('input/data.xml', 'utf8');
+var options = {
   compact: true,
   spaces: 4,
   trim: true,
   nativeType: false,
   alwaysArray: false
 };
-const json = JSON.parse(convert.xml2json(jsonFile, options));
+var json = JSON.parse(convert.xml2json(jsonFile, options));
 
 // unwrap data
-const leaderBoards = json.OverlayData.LeaderBoards.LeaderBoard;
-const camDrivers = json.OverlayData.CamDrivers;
-const fastestLaps = json.OverlayData.FastestLaps.FastLap;
-const messageStates = json.OverlayData.MessageStates.MessageState;
-const sessionData = json.OverlayData.SessionData;
-const sessionInfo = sessionData.SessionInfo.Sessions;
-const raceEvents = json.OverlayData.RaceEvents.RaceEvent;
+var leaderBoards = json.OverlayData.LeaderBoards.LeaderBoard;
+var camDrivers = json.OverlayData.CamDrivers;
+var fastestLaps = json.OverlayData.FastestLaps.FastLap;
+var messageStates = json.OverlayData.MessageStates.MessageState;
+var sessionData = json.OverlayData.SessionData;
+var sessionInfo = sessionData.SessionInfo.Sessions;
+var raceEvents = json.OverlayData.RaceEvents.RaceEvent;
 
 // data
-const data = {};
+var data = {};
 data.session = {};
 
 // TODO: improve and use as a param
 // configuration stuff
-const configuration = {
+var configuration = {
   fastestLap: {
     visibleFor: 40,
     active: true

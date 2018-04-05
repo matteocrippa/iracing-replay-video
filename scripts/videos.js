@@ -1,9 +1,9 @@
 // require
-const movie = require('../lib/movie.js');
-const fs = require('fs');
-const path = require('path');
+var movie = require('../lib/movie.js');
+var fs = require('fs');
+var path = require('path');
 
-const data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
+var data = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../tmp/data.json'), 'utf8'));
 
 // preparing video
 console.log('🎥 - Preparing Video');
