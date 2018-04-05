@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/movie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/qualify.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/qualify.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/race.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/race.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,13 +36,40 @@
       <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="366">
+              <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="images.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="qualify.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="89" column="38" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="race.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/race.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/images.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -121,9 +149,7 @@
         <option value="$PROJECT_DIR$/templates/fastest-lap.ejs" />
         <option value="$PROJECT_DIR$/templates/intro.html" />
         <option value="$PROJECT_DIR$/templates/race.html" />
-        <option value="$PROJECT_DIR$/templates/qualify.ejs" />
         <option value="$PROJECT_DIR$/templates/intro.ejs" />
-        <option value="$PROJECT_DIR$/templates/race.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -132,7 +158,6 @@
         <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/scripts/prepare.js" />
         <option value="$PROJECT_DIR$/lib/track.js" />
-        <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/lib/voice.js" />
         <option value="$PROJECT_DIR$/scripts/clean.js" />
         <option value="$PROJECT_DIR$/scripts/commentary.js" />
@@ -140,6 +165,9 @@
         <option value="$PROJECT_DIR$/lib/utils.js" />
         <option value="$PROJECT_DIR$/lib/movie.js" />
         <option value="$PROJECT_DIR$/scripts/images.js" />
+        <option value="$PROJECT_DIR$/lib/ui.js" />
+        <option value="$PROJECT_DIR$/templates/race.ejs" />
+        <option value="$PROJECT_DIR$/templates/qualify.ejs" />
       </list>
     </option>
   </component>
@@ -269,7 +297,7 @@
       <workItem from="1522333108840" duration="391000" />
       <workItem from="1522334196219" duration="385000" />
       <workItem from="1522497468434" duration="1937000" />
-      <workItem from="1522960201624" duration="1124000" />
+      <workItem from="1522960201624" duration="2041000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -282,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113633000" />
+    <option name="totallyTimeSpent" value="114550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -293,8 +321,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34246576" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34246576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
@@ -371,20 +399,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/lb-qualify.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-race.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-94.png" />
-    <entry file="file://$PROJECT_DIR$/templates/race.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="57" column="4" selection-start-line="57" selection-start-column="4" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/lb-87.png" />
     <entry file="file://$PROJECT_DIR$/tmp/intro.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-91.png" />
@@ -399,13 +413,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/lb-89.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-90.png" />
     <entry file="file://$PROJECT_DIR$/tmp/data.json" />
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -486,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -511,6 +511,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="60" column="87" selection-start-line="60" selection-start-column="80" selection-end-line="60" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/race.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/qualify.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
