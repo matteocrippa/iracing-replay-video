@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/lib/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +17,8 @@
       <file leaf-file-name="movie.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/movie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+            <state relative-caret-position="290">
+              <caret line="164" column="40" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -25,8 +26,8 @@
       <file leaf-file-name="ui.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="62" column="56" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="56" />
+            <state relative-caret-position="229">
+              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -125,10 +126,10 @@
         <option value="$PROJECT_DIR$/scripts/videos.js" />
         <option value="$PROJECT_DIR$/lib/utils.js" />
         <option value="$PROJECT_DIR$/scripts/images.js" />
-        <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
         <option value="$PROJECT_DIR$/templates/qualify.ejs" />
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
+        <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/lib/movie.js" />
       </list>
     </option>
@@ -254,7 +255,7 @@
       <workItem from="1522333108840" duration="391000" />
       <workItem from="1522334196219" duration="385000" />
       <workItem from="1522497468434" duration="1937000" />
-      <workItem from="1522960201624" duration="4043000" />
+      <workItem from="1522960201624" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -267,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116552000" />
+    <option name="totallyTimeSpent" value="118893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -282,7 +283,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3311874" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3279503" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3275218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -487,15 +488,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="62" column="56" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="56" />
+        <state relative-caret-position="229">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+        <state relative-caret-position="290">
+          <caret line="164" column="40" selection-start-line="164" selection-start-column="40" selection-end-line="164" selection-end-column="40" />
         </state>
       </provider>
     </entry>
