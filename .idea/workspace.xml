@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/driver.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="driver.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/driver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="373">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -45,8 +43,8 @@
       <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tmp/data.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47205">
-              <caret line="3147" column="14" selection-start-line="3147" selection-start-column="14" selection-end-line="3147" selection-end-column="14" />
+            <state relative-caret-position="5563">
+              <caret line="3165" column="10" selection-start-line="3165" selection-start-column="10" selection-end-line="3165" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -274,7 +272,7 @@
       <workItem from="1523018402786" duration="2520000" />
       <workItem from="1523060850574" duration="56000" />
       <workItem from="1523098768099" duration="450000" />
-      <workItem from="1523099241591" duration="557000" />
+      <workItem from="1523099241591" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -287,13 +285,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123358000" />
+    <option name="totallyTimeSpent" value="125772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -302,7 +299,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19676214" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19676214" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -503,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47205">
-          <caret line="3147" column="14" selection-start-line="3147" selection-start-column="14" selection-end-line="3147" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -524,10 +514,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5563">
+          <caret line="3165" column="10" selection-start-line="3165" selection-start-column="10" selection-end-line="3165" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/driver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="373">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
