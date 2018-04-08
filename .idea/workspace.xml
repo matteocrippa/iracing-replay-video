@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1100b4-4097-4bfe-9d7d-dfd5cc928691" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/driver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/driver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/generator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/prepare.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/prepare.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leaderboard-small.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/leaderboard-small.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,50 +17,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="generator.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="generator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/generator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
+            <state relative-caret-position="209">
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driver.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prepare.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driver.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/driver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="840">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="leaderboard-small.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5563">
-              <caret line="3165" column="10" selection-start-line="3165" selection-start-column="10" selection-end-line="3165" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="data.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/data.xml">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,10 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mazda</find>
-      <find>japan</find>
-      <find>club</find>
-      <find>&quot;isFastestLap&quot;:</find>
       <find>[{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Fulvio Oggiano&quot;,&quot;surname&quot;:&quot;Oggiano&quot;,&quot;initial&quot;:&quot;FO&quot;,&quot;number&quot;:&quot;1&quot;,&quot;userid&quot;:&quot;312795&quot;,&quot;idx&quot;:&quot;1&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;ffffff&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.43&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Andreas Ribbecke&quot;,&quot;surname&quot;:&quot;Ribbecke&quot;,&quot;initial&quot;:&quot;AR&quot;,&quot;number&quot;:&quot;4&quot;,&quot;userid&quot;:&quot;317992&quot;,&quot;idx&quot;:&quot;4&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;9902a9&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.54&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Dominique Bastien&quot;,&quot;surname&quot;:&quot;Bastien&quot;,&quot;initial&quot;:&quot;DB&quot;,&quot;number&quot;:&quot;2&quot;,&quot;userid&quot;:&quot;118566&quot;,&quot;idx&quot;:&quot;2&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;111111&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 2.04&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Enrique Contreras&quot;,&quot;surname&quot;:&quot;Contreras&quot;,&quot;initial&quot;:&quot;EC&quot;,&quot;number&quot;:&quot;7&quot;,&quot;userid&quot;:&quot;311721&quot;,&quot;idx&quot;:&quot;7&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;16463a&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.62&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Adam Mariak&quot;,&quot;surname&quot;:&quot;Mariak&quot;,&quot;initial&quot;:&quot;AM&quot;,&quot;number&quot;:&quot;11&quot;,&quot;userid&quot;:&quot;305179&quot;,&quot;idx&quot;:&quot;11&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;00aeef&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.41&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Blair Loveday&quot;,&quot;surname&quot;:&quot;Loveday&quot;,&quot;initial&quot;:&quot;BL&quot;,&quot;number&quot;:&quot;8&quot;,&quot;userid&quot;:&quot;262333&quot;,&quot;idx&quot;:&quot;8&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;2b2fab&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 2.18&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Matteo Crippa&quot;,&quot;surname&quot;:&quot;Crippa&quot;,&quot;initial&quot;:&quot;MC&quot;,&quot;number&quot;:&quot;10&quot;,&quot;userid&quot;:&quot;216662&quot;,&quot;idx&quot;:&quot;10&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;43d046&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 3.55&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Marek Liolias&quot;,&quot;surname&quot;:&quot;Liolias&quot;,&quot;initial&quot;:&quot;ML&quot;,&quot;number&quot;:&quot;5&quot;,&quot;userid&quot;:&quot;17374&quot;,&quot;idx&quot;:&quot;5&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;000000&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#00c702&quot;,&quot;rating&quot;:&quot;B 3.42&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:true,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Zachary Dean&quot;,&quot;surname&quot;:&quot;Dean&quot;,&quot;initial&quot;:&quot;ZD&quot;,&quot;number&quot;:&quot;12&quot;,&quot;userid&quot;:&quot;301595&quot;,&quot;idx&quot;:&quot;12&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;141188&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 3.74&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Miguel Molina Jr&quot;,&quot;surname&quot;:&quot;Jr&quot;,&quot;initial&quot;:&quot;MM&quot;,&quot;number&quot;:&quot;3&quot;,&quot;userid&quot;:&quot;313139&quot;,&quot;idx&quot;:&quot;3&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;ffffff&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.50&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Jürg Monzared&quot;,&quot;surname&quot;:&quot;Monzared&quot;,&quot;initial&quot;:&quot;JM&quot;,&quot;number&quot;:&quot;6&quot;,&quot;userid&quot;:&quot;314121&quot;,&quot;idx&quot;:&quot;6&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;000000&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#fc8a27&quot;,&quot;rating&quot;:&quot;D 2.59&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0},{&quot;driver&quot;:{&quot;fullname&quot;:&quot;Frank Alessi&quot;,&quot;surname&quot;:&quot;Alessi&quot;,&quot;initial&quot;:&quot;FA&quot;,&quot;number&quot;:&quot;9&quot;,&quot;userid&quot;:&quot;260125&quot;,&quot;idx&quot;:&quot;9&quot;,&quot;car&quot;:&quot;Mazda MX-5 Cup&quot;,&quot;color&quot;:&quot;e97f26&quot;,&quot;license&quot;:{&quot;color&quot;:&quot;#feec04&quot;,&quot;rating&quot;:&quot;C 3.16&quot;},&quot;nationality&quot;:&quot;&quot;},&quot;isOnCamera&quot;:false,&quot;isFastestLap&quot;:false,&quot;fastestLap&quot;:0,&quot;pit&quot;:&quot;0&quot;,&quot;gap&quot;:0}]</find>
       <find>fastestLap</find>
       <find>OverlayData</find>
@@ -95,6 +83,10 @@
       <find>exist</find>
       <find>chunk</find>
       <find>flags.yellow</find>
+      <find>isOn</find>
+      <find>currentDriverOnCamera</find>
+      <find>Driver</find>
+      <find>Cam</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
@@ -124,7 +116,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Readme.md" />
-        <option value="$PROJECT_DIR$/scripts/prepare.js" />
         <option value="$PROJECT_DIR$/lib/track.js" />
         <option value="$PROJECT_DIR$/lib/voice.js" />
         <option value="$PROJECT_DIR$/scripts/clean.js" />
@@ -136,9 +127,10 @@
         <option value="$PROJECT_DIR$/lib/ui.js" />
         <option value="$PROJECT_DIR$/lib/movie.js" />
         <option value="$PROJECT_DIR$/templates/race.ejs" />
-        <option value="$PROJECT_DIR$/lib/generator.js" />
         <option value="$PROJECT_DIR$/templates/leaderboard-small.ejs" />
         <option value="$PROJECT_DIR$/lib/driver.js" />
+        <option value="$PROJECT_DIR$/scripts/prepare.js" />
+        <option value="$PROJECT_DIR$/lib/generator.js" />
       </list>
     </option>
   </component>
@@ -151,7 +143,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -272,7 +264,10 @@
       <workItem from="1523018402786" duration="2520000" />
       <workItem from="1523060850574" duration="56000" />
       <workItem from="1523098768099" duration="450000" />
-      <workItem from="1523099241591" duration="2971000" />
+      <workItem from="1523099241591" duration="5124000" />
+      <workItem from="1523179140769" duration="3677000" />
+      <workItem from="1523215482584" duration="66000" />
+      <workItem from="1523216391088" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="improved layout">
       <created>1521575772808</created>
@@ -285,23 +280,23 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125772000" />
+    <option name="totallyTimeSpent" value="132105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3505007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37052932" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19676214" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -344,7 +339,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -382,7 +377,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/lb-87.png" />
     <entry file="file://$PROJECT_DIR$/tmp/intro.png" />
     <entry file="file://$PROJECT_DIR$/tmp/lb-91.png" />
-    <entry file="file://$PROJECT_DIR$/input/data.xml" />
     <entry file="file://$PROJECT_DIR$/templates/intro.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -483,10 +477,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+    <entry file="file://$PROJECT_DIR$/tmp/data.json" />
+    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="-694">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -500,31 +495,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/leaderboard-small.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="82" column="46" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="122" column="23" selection-start-line="122" selection-start-column="23" selection-end-line="122" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5563">
-          <caret line="3165" column="10" selection-start-line="3165" selection-start-column="10" selection-end-line="3165" selection-end-column="10" />
+    <entry file="file://$PROJECT_DIR$/input/data.xml">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/driver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="840">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/prepare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
         </state>
       </provider>
     </entry>

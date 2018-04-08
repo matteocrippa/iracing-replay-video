@@ -44,6 +44,9 @@ var configuration = {
   },
   commentary: {
     active: true
+  },
+  camera: {
+    offset: 8
   }
 };
 
