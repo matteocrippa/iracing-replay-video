@@ -18,7 +18,7 @@ var json = JSON.parse(convert.xml2json(jsonFile, options));
 
 // unwrap data
 var leaderBoards = json.OverlayData.LeaderBoards.LeaderBoard;
-var camDrivers = json.OverlayData.CamDrivers;
+var camDrivers = json.OverlayData.CamDrivers.CamDriver;
 var fastestLaps = json.OverlayData.FastestLaps.FastLap;
 var messageStates = json.OverlayData.MessageStates.MessageState;
 var sessionData = json.OverlayData.SessionData;
@@ -46,7 +46,7 @@ var configuration = {
     active: true
   },
   camera: {
-    offset: 8
+    offset: 0
   }
 };
 
@@ -71,6 +71,11 @@ console.log('🚩 - Generated Qualify standings');
 data.session.race = sessionInfo._Sessions[2].ResultsPositions._ResultsPositions;
 data.race = generator.generateSessionData(data, false);
 console.log('🏁 - Generated Racing standings');
+
+// cleanup session and other data we don't need anymore
+data.session = null;
+data.events = null;
+data.fastest = null;
 
 // prepare race texts
 if(configuration.commentary.active) {
