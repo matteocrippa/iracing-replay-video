@@ -33,17 +33,17 @@ data.session = {};
 // configuration stuff
 var configuration = {
   fastestLap: {
-    visibleFor: 40,
+    visibleFor: 30,
     active: true
   },
   pit: {
     active: true
   },
   incidents: {
-    active: true
+    active: false
   },
   commentary: {
-    active: true
+    active: false
   },
   camera: {
     offset: 0

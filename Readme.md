@@ -17,8 +17,8 @@
 - Rename files generate by iRacing Replay Overlay (iRO) in this way
   - short video > `intro.mp4` _(optional)_
   - long video > `video.mp4`
-  - xml file > `data.xml`
-  - xml file > `music.mp3`
+  - xml/replayscript file > `data.xml` (if replayscript file is in place rename to data.xml)
+  - music file > `music.mp3` _(optional)_
   - logo file > `banner.jpg` _(optional)_
   
 - Move all files into `input` directory
