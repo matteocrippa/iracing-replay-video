@@ -14,7 +14,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "get-video-duration": "^0.2.0",
     "google-tts-api": "^0.0.2",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "webshot": "^0.18.0",
     "xml-js": "^1.6.2"
   },
